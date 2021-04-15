@@ -330,18 +330,4 @@ client.on("message", message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.login('ODA3MzExOTg2MzcwNDEyNTQ1.YB2J4A.yAyPy93hjTgmOPUckjVzmZTt6Pw');
+client.login(process.env.TOKEN);
